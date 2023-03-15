@@ -1,0 +1,23 @@
+nav a {
+    display: block;
+    list-style-type: none;
+    margin: 0 0 30px;;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(168, 244, 168);
+    border: 1px solid darkgreen;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+nav a:hover:not(.active) {
+    background-color: darkgreen;
+    color: white;
+  }
+
+#task {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: large;
+    margin: 10px 20px 10px;
+}

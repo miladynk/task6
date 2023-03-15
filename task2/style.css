@@ -1,0 +1,32 @@
+a {
+    display: block;
+    list-style-type: none;
+    margin: 0 0 30px;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(168, 244, 168);
+    border: 1px solid darkgreen;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+a:hover:not(.active) {
+    background-color: darkgreen;
+    color: white;
+  }
+
+ p {
+    display:block;
+    border-bottom: 1px dashed;
+    width: fit-content;
+    font-size:large;
+    font-family: cursive;
+    padding: 0;
+  }
+
+  code {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: small;
+    margin: 10px 20px 10px;
+  }
